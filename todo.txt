@@ -1,0 +1,7 @@
+1) add resume 
+2) fix bottom space
+3) make contact functional
+4) ~add social media in contacts~ 
+5) ~add projects~
+6) ~change background for each section~
+7) ~add icon in the title~

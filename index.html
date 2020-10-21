@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
   <head>
     <title>Umang's Portfolio</title>
@@ -13,6 +8,10 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon_io/site.webmanifest">
   </head>
   <body class="is-preload">
     <!-- Header -->
@@ -21,7 +20,7 @@
         <!-- Logo -->
         <div id="logo">
           <span class="image avatar48"
-            ><img src="images/avatar.jpg" alt=""
+            ><img src="/images/display_picture.jpg" alt=""
           /></span>
           <h1 id="title">Umang Sakhare</h1>
           <p>Software Developer</p>
@@ -41,14 +40,19 @@
               >
             </li>
             <li>
-              <a href="#portfolio" id="portfolio-link"
-                ><span class="icon solid fa-th">Portfolio</span></a
+              <a href="#projects" id="portfolio-link"
+                ><span class="icon solid fa-th">Projects</span></a
               >
             </li>
             <li>
               <a href="#contact" id="contact-link"
                 ><span class="icon solid fa-envelope">Contact</span></a
               >
+            </li>
+            <li>
+                <a href="" id="Resume"
+                ><span class="icon solid fa-address-card">Resume</span></a
+                >
             </li>
           </ul>
         </nav>
@@ -60,26 +64,24 @@
           <li>
             <a
               href="https://github.com/umang-sakhare17"
+              target="_blank"
               class="icon brands fa-github"
               ><span class="label">Github</span></a
             >
           </li>
           <li>
             <a
-              href="https://gitlab.com/Umang_Sakhare"
-              class="icon brands fa-gitlab"
-              ><span class="label">Gitlab</span></a
-            >
-          </li>
-          <li>
-            <a
               href="https://www.linkedin.com/in/umang-sakhare/"
+              target="_blank"
               class="icon brands fa-linkedin"
               ><span class="label">Linkedin</span></a
             >
           </li>
           <li>
-            <a href="sakhare.umang@gmail.com" class="icon solid fa-envelope"
+            <a
+              href="mailto: sakhare.umang@gmail.com"
+              target="_blank"
+              class="icon solid fa-envelope"
               ><span class="label">Email</span></a
             >
           </li>
@@ -93,7 +95,7 @@
       <section id="top" class="one dark cover">
         <div class="container">
           <header>
-            <h2 class="alt">Hi! I'm <strong>Umang</strong>!</h2>
+            <h2 class="alt">Hi, I'm <strong>Umang</strong>!</h2>
             <p>
               I'm a budding software developer experienced in Java, Python and
               Full stack development.
@@ -107,15 +109,11 @@
       </section>
 
       <!-- About Me -->
-      <section id="about" class="three">
+      <section id="about" class="two" style="background-color: #f5fafa">
         <div class="container">
           <header>
             <h2>About Me</h2>
           </header>
-
-          <!-- <a href="#" class="image featured"
-            ><img src="images/pic08.jpg" alt=""
-          /></a> -->
 
           <p style="text-align: center">
             I am a final year student pursuing IT engineering at College of
@@ -142,128 +140,64 @@
       </section>
 
       <!-- Projects -->
-      <!-- <section id="portfolio" class="two">
-        <div class="container">
-          <header>
-            <h2>Projects</h2>
-          </header>
-
-          <div class="row">
-            <div class="col-4 col-12-mobile">
-              <article class="item">
-                <a href="#" class="image fit"
-                  ><img src="images/pic03.jpg" alt=""
-                /></a>
-                <header>
-                  <h3>HTTP Server</h3>
-                  Implementation of an HTTP server that accepts requests from a
-                  client and serves a suitable response.
-                </header>
-              </article>
-              <article class="item">
-                <a href="#" class="image fit"
-                  ><img src="images/pic03.jpg" alt=""
-                /></a>
-                <header>
-                  <h3>Automatic Licence plate recognition</h3>
-                  ALPR recognizes a vehicle’s license plate number from an
-                  image.
-                </header>
-              </article>
-            </div>
-            <div class="col-4 col-12-mobile">
-              <article class="item">
-                <a href="#" class="image fit"
-                  ><img src="images/pic03.jpg" alt=""
-                /></a>
-                <header>
-                  <h3>GREP</h3>
-                  Implemented GREP command in Linux terminal. GREP (Global
-                  Regular Expression Print) processes text line by line and
-                  prints any line that matches a specified pattern.
-                </header>
-              </article>
-              <article class="item">
-                <a href="#" class="image fit"
-                  ><img src="images/pic03.jpg" alt=""
-                /></a>
-                <header>
-                  <h3>Student Database Management System</h3>
-                  A website that can add, remove, and modify student details.
-                </header>
-              </article>
-            </div>
-            <div class="col-4 col-12-mobile">
-              <article class="item">
-                <a href="#" class="image fit"
-                  ><img src="images/pic03.jpg" alt=""
-                /></a>
-                <header>
-                  <h3>Dolor Penatibus</h3>
-                </header>
-              </article>
-              <article class="item">
-                <a href="#" class="image fit"
-                  ><img src="images/pic03.jpg" alt=""
-                /></a>
-                <header>
-                  <h3>Orci Convallis</h3>
-                </header>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <section id="two">
-        <h2>Recent Work</h2>
-        <div class="row">
-          <article class="col-6 col-12-xsmall work-item">
+      <section id="projects" class="two" style="background-color: #ecf1f1">
+        <h2 style="padding-bottom: 60px;">Projects</h2>
+        <div class="row" style="padding-left: 10px; padding-right: 20px">
+          <article class="col-4 col-12-xsmall work-item">
             <a href="images/fulls/01.jpg" class="image fit thumb"
-              ><img src="images/pic03.jpg" alt=""
+              ><img src="/images/http__01.jpg" alt=""
             /></a>
-            <h3>Magna sed consequat tempus</h3>
-            <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+            <h3>HTTP Server</h3>
+            <p>
+              Implementation of an HTTP server that accepts requests from a
+              client and serves a suitable response.
+            </p>
           </article>
-          <article class="col-6 col-12-xsmall work-item">
+          <article class="col-4 col-12-xsmall work-item">
             <a href="images/fulls/02.jpg" class="image fit thumb"
-              ><img src="images/pic03.jpg" alt=""
+              ><img src="/images/license__01.jpg" alt=""
             /></a>
-            <h3>Ultricies lacinia interdum</h3>
-            <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+            <h3>Automatic Licence Plate Recognition</h3>
+            <p>
+              ALPR recognizes a vehicle’s license plate number from an image.
+            </p>
           </article>
-          <article class="col-6 col-12-xsmall work-item">
+          <article class="col-4 col-12-xsmall work-item">
             <a href="images/fulls/03.jpg" class="image fit thumb"
-              ><img src="images/pic03.jpg" alt=""
+              ><img src="images/corona1__01.jpg" alt=""
             /></a>
-            <h3>Tortor metus commodo</h3>
-            <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+            <h3>Corona Stats - India</h3>
+            <p>
+                A neat and simple Progressive Web App that shows the state-wise count of confirmed victims, recoveries and deaths.
+            </p>
           </article>
-          <article class="col-6 col-12-xsmall work-item">
+          <!--
+          <article class="col-4 col-12-xsmall work-item">
             <a href="images/fulls/04.jpg" class="image fit thumb"
               ><img src="images/pic03.jpg" alt=""
             /></a>
-            <h3>Quam neque phasellus</h3>
-            <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+            <h3>Student Database Management System</h3>
+            <p>A website that can add, remove, and modify student details.</p>
           </article>
-          <article class="col-6 col-12-xsmall work-item">
+          <article class="col-4 col-12-xsmall work-item">
             <a href="images/fulls/05.jpg" class="image fit thumb"
               ><img src="images/pic03.jpg" alt=""
             /></a>
             <h3>Nunc enim commodo aliquet</h3>
             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
           </article>
-          <article class="col-6 col-12-xsmall work-item">
+          <article class="col-4 col-12-xsmall work-item">
             <a href="images/fulls/06.jpg" class="image fit thumb"
               ><img src="images/pic03.jpg" alt=""
             /></a>
             <h3>Risus ornare lacinia</h3>
             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-          </article>
+          </article> -->
         </div>
       </section>
 
       <!-- Interests -->
-      <section id="interests" class="three">
+      <section id="interests" class="three" style="background-color: #f5fafa">
         <div class="container">
           <header>
             <h2>Interests</h2>
@@ -287,13 +221,13 @@
       </section>
 
       <!-- Contact -->
-      <section id="contact" class="four">
+      <section id="contact" class="four" style="background-color: #ecf1f1">
         <div class="container">
           <header>
             <h2>Contact</h2>
           </header>
 
-          <p>Feel free to reach out to me!</p>
+          <p>Feel free to drop a message and I'll get back to you at the earliest!</p>
 
           <form method="post" action="#">
             <div class="row">
@@ -317,11 +251,37 @@
 
     <!-- Footer -->
     <div id="footer">
-      <!-- Copyright -->
-      <ul class="copyright">
-        <li>&copy; Untitled. All rights reserved.</li>
-        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-      </ul>
+        You can also reach out to me on my socials!
+        <div class="bottom">
+            <!-- Social Icons -->
+            <ul class="icons">
+              <li>
+                <a
+                  href="https://github.com/umang-sakhare17"
+                  target="_blank"
+                  class="icon brands fa-github"
+                  ><span class="label">Github</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/umang-sakhare/"
+                  target="_blank"
+                  class="icon brands fa-linkedin"
+                  ><span class="label">Linkedin</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto: sakhare.umang@gmail.com"
+                  target="_blank"
+                  class="icon solid fa-envelope"
+                  ><span class="label">Email</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
     </div>
 
     <!-- Scripts -->
